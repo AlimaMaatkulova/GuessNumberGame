@@ -28,10 +28,10 @@ public class GuessNumberGame {
 
     public static void chooseDifficulty() {
         System.out.println("Choose difficulty:");
-        System.out.println("1. Easy (1–50)");
-        System.out.println("2. Medium (1–100)");
-        System.out.println("3. Hard (1–500)");
-        System.out.println("4. Limited attempts (1–100, 10 attempts)");
+        System.out.println("1) Easy (1–50)");
+        System.out.println("2) Medium (1–100)");
+        System.out.println("3) Hard (1–500)");
+        System.out.println("4) Limited attempts (1–100, 10 attempts)");
         System.out.print("Your choice: ");
 
         int choice = readInt();
